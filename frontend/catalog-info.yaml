@@ -8,10 +8,11 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: "group:default/hyrule-warriors"
+  owner: group:default/goron-bowlers
   lifecycle: production
   system: artists-system
   dependsOn:
     - resource:default/artists-db
-  providesApis:
+    - resource:default/artists-backend
+  consumesApis:
     - artist-apis

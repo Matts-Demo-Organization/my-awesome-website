@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "artists-backend"
+  title: "Artists Backend"
+  description: "Bakcstage Website example"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:default/goron-bowlers
+  lifecycle: production
+  system: artists-system
+  dependsOn:
+    - resource:default/my-core-library

@@ -1,8 +1,7 @@
-site_name: 'example-docs'
+site_name: "front-end-docs"
 
 nav:
   - Home: index.md
 
 plugins:
   - techdocs-core
-
