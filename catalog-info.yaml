@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: my-awesome-website
+  spec:
+    type: service
+    lifecycle: experimental
+    owner: goron-bowlers
+    system: example
