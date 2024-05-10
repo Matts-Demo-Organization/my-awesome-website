@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: group:default/goron-bowlers
+  owner: group:Matts-Demo-Organization/goron-bowlers
   lifecycle: production
   system: artists-system
   dependsOn:
