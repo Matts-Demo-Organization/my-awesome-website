@@ -13,6 +13,6 @@ spec:
   system: artists-system
   dependsOn:
     - resource:default/artists-db
-    - resource:default/artists-backend
+    - component:default/artists-backend
   consumesApis:
     - artist-apis
