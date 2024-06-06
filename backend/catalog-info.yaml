@@ -6,6 +6,7 @@ metadata:
   description: "Bakcstage Website example"
   annotations:
     backstage.io/techdocs-ref: dir:.
+    matts-demo-annotation: testin123
 spec:
   type: service
   owner: group:default/goron-bowlers
