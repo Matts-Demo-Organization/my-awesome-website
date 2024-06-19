@@ -4,6 +4,8 @@ metadata:
   name: "artists-website"
   title: "Artists Website"
   description: "Bakcstage Website example"
+  tags:
+    - "todo"
   annotations:
     backstage.io/techdocs-ref: dir:.
     customfact.com/todo: '1'
