@@ -6,6 +6,7 @@ metadata:
   description: "Bakcstage Website example"
   annotations:
     backstage.io/techdocs-ref: dir:.
+    customfact.com/todo: '1'
 spec:
   type: website
   owner: group:default/goron-bowlers
