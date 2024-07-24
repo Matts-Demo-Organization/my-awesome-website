@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "artists-website"
+  namespace: "test"
   title: "Artists Website"
   description: "Bakcstage Website example"
   tags:
