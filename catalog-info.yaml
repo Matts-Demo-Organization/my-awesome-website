@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: my-awesome-website-monorepo
+  displayName: My Awesome Website Monorepo
+spec:
+  type: url
+  targets:
+    - ./services/fontend/catalog-info.yaml
+    - ./services/backend/catalog-info.yaml
