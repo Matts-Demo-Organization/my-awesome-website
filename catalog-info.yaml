@@ -4,6 +4,7 @@ metadata:
   name: my-awesome-website-monorepo
   displayName: My Awesome Website Monorepo
 spec:
+  owner: goron-bowlers
   type: url
   targets:
     - ./services/fontend/catalog-info.yaml
