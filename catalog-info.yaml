@@ -7,5 +7,5 @@ spec:
   owner: goron-bowlers
   type: url
   targets:
-    - ./services/fontend/catalog-info.yaml
-    - ./services/backend/catalog-info.yaml
+    - ./fontend/catalog-info.yaml
+    - ./backend/catalog-info.yaml
